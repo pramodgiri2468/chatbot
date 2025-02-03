@@ -50,7 +50,7 @@ def validate_phone(phone):
 
 # Initialize Streamlit app
 st.set_page_config(page_title="Chatbot with Q&A and Conversational Form")
-st.header("Gemini LLM Application")
+st.header("Chatbot")
 
 # Initialize session states
 if "chat_history" not in st.session_state:
